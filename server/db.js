@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 // const mongoURL = "mongodb://localhost:27017/glocity";
-const mongoURL = "mongodb+srv://socket:socketglocity@cluster0.3kjta.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+const mongoURL = "";
 
 mongoose.connect(mongoURL,{useUnifiedTopology:true,useNewUrlParser:true});
 
